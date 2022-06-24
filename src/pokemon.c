@@ -6635,7 +6635,8 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem, s
             switch (gEvolutionTable[species][i].method)
             {
             case EVO_CRITICAL_HITS:
-                if (gPartyCriticalHits[evolutionItem] >= gEvolutionTable[species][i].param)
+                // if (gPartyCriticalHits[evolutionItem] >= gEvolutionTable[species][i].param)
+                if (TRUE)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             }
