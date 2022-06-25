@@ -2268,6 +2268,7 @@ static void Print2PRecord(s32 position, s32 x, s32 y, struct RankingHall2P *hall
 
 static void Fill1PRecords(struct RankingHall1P *dst, s32 hallFacilityId, s32 lvlMode)
 {
+    #ifndef FREE_RECORD_MIXING_HALL_RECORDS
     s32 i, j;
     struct RankingHall1P record1P[HALL_RECORDS_COUNT + 1];
     struct PlayerHallRecords *playerHallRecords = calloc(1, sizeof(struct PlayerHallRecords));
@@ -2298,10 +2299,12 @@ static void Fill1PRecords(struct RankingHall1P *dst, s32 hallFacilityId, s32 lvl
     }
 
     free(playerHallRecords);
+    #endif
 }
 
 static void Fill2PRecords(struct RankingHall2P *dst, s32 lvlMode)
 {
+    #ifndef FREE_RECORD_MIXING_HALL_RECORDS
     s32 i, j;
     struct RankingHall2P record2P[HALL_RECORDS_COUNT + 1];
     struct PlayerHallRecords *playerHallRecords = calloc(1, sizeof(struct PlayerHallRecords));
@@ -2332,6 +2335,7 @@ static void Fill2PRecords(struct RankingHall2P *dst, s32 lvlMode)
     }
 
     free(playerHallRecords);
+    #endif
 }
 
 static void PrintHallRecords(s32 hallFacilityId, s32 lvlMode)
@@ -2381,6 +2385,7 @@ void ScrollRankingHallRecordsWindow(void)
 
 void ClearRankingHallRecords(void)
 {
+    #ifndef FREE_RECORD_MIXING_HALL_RECORDS
     s32 i, j, k;
 
     // UB: Passing 0 as a pointer instead of a pointer holding a value of 0.
@@ -2415,6 +2420,7 @@ void ClearRankingHallRecords(void)
             gSaveBlock2Ptr->hallRecords2P[j][k].winStreak = 0;
         }
     }
+    #endif
 }
 
 void SaveGameFrontier(void)
