@@ -51,6 +51,7 @@
 #include "constants/trainers.h"
 #include "constants/weather.h"
 #include "constants/battle_config.h"
+#include "constants/region_map_sections.h"
 
 struct SpeciesItem
 {
@@ -7522,7 +7523,11 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_PYRAMID_KING:
             return MUS_VS_FRONTIER_BRAIN;
         default:
-            return MUS_VS_TRAINER;
+            // Map Based Trainer Battle Music
+            if (gMapHeader.regionMapSectionId == MAPSEC_ROUTE_102)
+                return MUS_VS_TRAINER;
+            else
+                return MUS_VS_TRAINER;
         }
     }
     else
