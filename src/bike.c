@@ -130,6 +130,21 @@ void MovePlayerOnBike(u8 direction, u16 newKeys, u16 heldKeys)
         MovePlayerOnMachBike(direction, newKeys, heldKeys);
     else
         MovePlayerOnAcroBike(direction, newKeys, heldKeys);
+
+    if ((heldKeys & R_BUTTON) && (gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_MACH_BIKE))
+    {
+        gPlayerAvatar.flags -= PLAYER_AVATAR_FLAG_MACH_BIKE;
+        gPlayerAvatar.flags += PLAYER_AVATAR_FLAG_ACRO_BIKE;
+        SetPlayerAvatarTransitionFlags(PLAYER_AVATAR_FLAG_ACRO_BIKE);
+        PlaySE(SE_CLICK);
+    }
+    if ((heldKeys & L_BUTTON) && (gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_ACRO_BIKE))
+    {
+        gPlayerAvatar.flags -= PLAYER_AVATAR_FLAG_ACRO_BIKE;
+        gPlayerAvatar.flags += PLAYER_AVATAR_FLAG_MACH_BIKE;
+        SetPlayerAvatarTransitionFlags(PLAYER_AVATAR_FLAG_MACH_BIKE);
+        PlaySE(SE_CLICK);
+    }
 }
 
 static void MovePlayerOnMachBike(u8 direction, u16 newKeys, u16 heldKeys)
