@@ -26,6 +26,8 @@ You are currently on the master branch which should always be a working (at leas
 - "Move Pokémon" as first PSS option
 - Improving the Pace of Battles
 - Wrapping Summary Screen
+- Move Item
+- DPPt Bike (with L and R for Mach and Acro)
 
 ## Pret Tutorial Content
 
