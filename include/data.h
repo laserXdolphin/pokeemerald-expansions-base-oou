@@ -53,8 +53,9 @@ struct TrainerMonItemCustomMoves
     u16 iv;
     u8 lvl;
     u16 species;
-    u8 evs[NUM_STATS]; // {HP_EV, ATK_EV, DEF_EV, SPEED_EV, SPATK_EV, SPDEF_EV}
+    u8 nature; // Pokemon natures NATURE_ADAMANT
     u8 ability; // {ABILITY_1, ABILITY_2, ABILITY_Hidden}
+    u8 evs[NUM_STATS]; // {HP_EV, ATK_EV, DEF_EV, SPEED_EV, SPATK_EV, SPDEF_EV}
     u16 heldItem;
     u16 moves[MAX_MON_MOVES];
 };
