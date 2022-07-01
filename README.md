@@ -18,40 +18,44 @@ You are currently on the master branch which should always be a working (at leas
 - **[Content from Pokecommunity Simple Modifications Directory Content](https://www.pokecommunity.com/showthread.php?t=416647):** Setting EVs and Abilities for trainer battles, Nature Coloring and IV/EV Stat screens 
 
 ## Pokecommunity Simple Modifications Directory Content
-- Soft Level Cap
-- Set a Trainer's Pokémon's EVs, abilities and nature
-- Nature Color
-- Showing IVs/EVs in Summary Screen
-- Restoring the Shred Split Battle Transition
-- Poisonpoint no Overworld Poison Damage
+- [Soft Level Cap - PokemonCrazy](https://www.pokecommunity.com/showthread.php?t=435445)
+- Set a Trainer's Pokémon's [EVs - lightbox87](https://www.pokecommunity.com/showpost.php?p=10135792), [abilities - Diego Mertens](https://www.pokecommunity.com/showpost.php?p=10127338) and nature
+- [Nature Color - DizzyEgg](https://www.pokecommunity.com/showpost.php?p=10024409)
+- [Showing IVs/EVs in Summary Screen - PokemonCrazy](https://www.pokecommunity.com/showpost.php?p=10161688) using L, R and Start
+- [Restoring the Shred Split Battle Transition - Lunos](https://www.pokecommunity.com/showpost.php?p=10449556)
+- [Poisonpoint no Overworld Poison Damage - Lunos](https://www.pokecommunity.com/showpost.php?p=10349195) 
 - "Move Pokémon" as first PSS option
-- Improving the Pace of Battles
-- Wrapping Summary Screen
-- Move Item
-- DPPt Bike (with L and R for Mach and Acro)
+- [Improving the Pace of Battles - Mkol103](https://www.pokecommunity.com/showpost.php?p=10266925)
+- [Wrapping Summary Screen - Zeturic](https://www.pokecommunity.com/showpost.php?p=10060875)
+- [Move Item - Zeturic](https://www.pokecommunity.com/showpost.php?p=10120157)
+- [DPPt Bike (with L and R for Mach and Acro) - Lunos](https://www.pokecommunity.com/showpost.php?p=10161144)
+- [Faster Surfing - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10137446)
+- [Berry Trees No Longer Disappear - Buffel Saft](https://www.pokecommunity.com/showpost.php?p=10142996&postcount=63)
+- [Remove the need to water berries on rainy Routes - Buffel Saft](https://www.pokecommunity.com/showpost.php?p=10349397&postcount=258)
+- [Item Descriptions On First Obtain - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10126502)
 
 ## Pret Tutorial Content
 
 ### Fixes to vanilla code:
 - Uncommented bugfixes in config.h
-- Surf Dismount Ground Effects
-- Fix Snow Weather
+- [Surf Dismount Ground Effects - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10184839)
+- [Fix Snow Weather - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10182047)
 - Seeding the RNG properly on startup
 - Keep the Camera from Making Waves
 - Not showing dex entries until getting the Pokédex
 - Improving the WaitForVBlank function
-- Better Reflection System
+- [Better Reflection System - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10473906)
 
 ### Removing content:
 - Update obedience levels to current standards
 - Disabling Union Room check when entering Pokémon Centers
 
 ### Features from other generations
-- Remove the extra save confirmation
+- [Remove the extra save confirmation - Hiroshi Sotomura](https://www.pokecommunity.com/showpost.php?p=10211835)
 - Allow running indoors
-- Trainer Class-Based Poké Balls
+- [Trainer Class-Based Poké Balls - Buffel Saft](https://www.pokecommunity.com/showpost.php?p=10038105)
 - Prompt for reusing Repels
-- LGPE-Style Bonus Premier Balls
+- [LGPE-Style Bonus Premier Balls - Buffel Saft](https://www.pokecommunity.com/showpost.php?p=10178662)
 - Make the keyboard auto-switch to lowercase after the first character
 
 ### pokeemerald Miscellaneous
