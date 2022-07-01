@@ -730,6 +730,17 @@
 #define ITEM_TM48 629
 #define ITEM_TM49 630
 #define ITEM_TM50 631
+
+#define ITEM_HM01 632
+#define ITEM_HM02 633
+#define ITEM_HM03 634
+#define ITEM_HM04 635
+#define ITEM_HM05 636
+#define ITEM_HM06 637
+#define ITEM_HM07 638
+#define ITEM_HM08 639
+
+/*
 #define ITEM_TM51 632
 #define ITEM_TM52 633
 #define ITEM_TM53 634
@@ -789,6 +800,7 @@
 #define ITEM_HM06 687
 #define ITEM_HM07 688
 #define ITEM_HM08 689
+*/
 
 #define ITEM_TM01_FOCUS_PUNCH ITEM_TM01
 #define ITEM_TM02_DRAGON_CLAW ITEM_TM02
@@ -953,7 +965,7 @@
 #define ITEM_TO_MAIL(itemId)((itemId) - FIRST_MAIL_INDEX)
 #define MAIL_NONE 0xFF
 
-#define NUM_TECHNICAL_MACHINES 100
+#define NUM_TECHNICAL_MACHINES 50 // 100
 #define NUM_HIDDEN_MACHINES 8
 
 #define MAX_BAG_ITEM_CAPACITY  99

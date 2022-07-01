@@ -8468,6 +8468,7 @@ const struct Item gItems[] =
         #endif
     },
 
+    /*
     [ITEM_TM51] =
     {
         .name = _("TM51"),
@@ -9017,7 +9018,8 @@ const struct Item gItems[] =
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
-
+    */
+   
     [ITEM_HM01_CUT] =
     {
         .name = _("HM01"),
