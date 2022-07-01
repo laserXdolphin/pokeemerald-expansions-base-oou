@@ -13,13 +13,13 @@ You are currently on the master branch which should always be a working (at leas
 - **[TheXaman's PokedexPlus with a HGSS style](https://www.pokecommunity.com/showthread.php?t=441996):** 
 - **[ghoulslash's DexNav & Detector Mode](https://www.pokecommunity.com/showthread.php?t=440571):**
 - **[Some of ghoulslash's free_saveblock](https://www.pokecommunity.com/showthread.php?p=10168472#post10168472):** Namely FREE_UNION_ROOM_CHAT, FREE_LINK_BATTLE_RECORDS, FREE_RECORD_MIXING_HALL_RECORDS and APPRENTICE_COUNT set to 1 instead of 4 as well as MAIL_COUNT set to (PARTY_SIZE) instead of (10 + PARTY_SIZE)
+- **[Prof. Leon Dias' Fully Decapitalized Pokeemerald](https://www.pokecommunity.com/showthread.php?t=451448)**
 - **[Fixes and content from the pret tutorials](https://github.com/pret/pokeemerald/wiki/Tutorials):** Indoor running, BW Repel System, Trainer Classed Pokeballs, Map dependent Trainer Battle Music
 - **[Content from Pokecommunity Simple Modifications Directory Content](https://www.pokecommunity.com/showthread.php?t=416647):** Setting EVs and Abilities for trainer battles, Nature Coloring and IV/EV Stat screens 
 
 ## Pokecommunity Simple Modifications Directory Content
-- ADDING EVs TO TRAINERS
 - Soft Level Cap
-- Set a Trainer's Pokémon's abilities
+- Set a Trainer's Pokémon's EVs, abilities and nature
 - Nature Color
 - Showing IVs/EVs in Summary Screen
 - Restoring the Shred Split Battle Transition
