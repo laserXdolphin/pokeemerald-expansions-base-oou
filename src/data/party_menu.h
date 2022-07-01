@@ -1219,6 +1219,7 @@ static const u16 sTMHMMoves[] =
     [ITEM_TM48 - ITEM_TM01] = MOVE_SKILL_SWAP,
     [ITEM_TM49 - ITEM_TM01] = MOVE_SNATCH,
     [ITEM_TM50 - ITEM_TM01] = MOVE_OVERHEAT,
+    /*
     [ITEM_TM51 - ITEM_TM01] = MOVE_NONE, // Todo
     [ITEM_TM52 - ITEM_TM01] = MOVE_NONE, // Todo
     [ITEM_TM53 - ITEM_TM01] = MOVE_NONE, // Todo
@@ -1269,6 +1270,7 @@ static const u16 sTMHMMoves[] =
     [ITEM_TM98 - ITEM_TM01] = MOVE_NONE, // Todo
     [ITEM_TM99 - ITEM_TM01] = MOVE_NONE, // Todo
     [ITEM_TM100 - ITEM_TM01] = MOVE_NONE, // Todo
+    */
     [ITEM_HM01 - ITEM_TM01] = MOVE_CUT,
     [ITEM_HM02 - ITEM_TM01] = MOVE_FLY,
     [ITEM_HM03 - ITEM_TM01] = MOVE_SURF,
