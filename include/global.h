@@ -14,6 +14,7 @@
 #include "constants/maps.h"
 #include "constants/pokemon.h"
 #include "constants/easy_chat.h"
+#include "constants/trainer_hill.h"
 #include "constants/expansion_branches.h"
 
 // Ghoulslash's freeing saveblocks
@@ -296,8 +297,6 @@ struct BattleTowerPokemon
     u8 friendship;
 };
 
-#define NULL_BATTLE_TOWER_POKEMON { .nickname = __("$$$$$$$$$$$") }
-
 struct EmeraldBattleTowerRecord
 {
     /*0x00*/ u8 lvlMode; // 0 = level 50, 1 = level 100
@@ -484,6 +483,9 @@ struct RankingHall2P
     u8 language;
 };
 
+#include "constants/items.h"
+#define ITEM_FLAGS_COUNT ((ITEMS_COUNT / 8) + ((ITEMS_COUNT % 8) ? 1 : 0))
+
 struct SaveBlock2
 {
     /*0x00*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
@@ -518,6 +520,7 @@ struct SaveBlock2
     #endif
     /*0x624*/ u16 contestLinkResults[CONTEST_CATEGORIES_COUNT][CONTESTANT_COUNT];
     /*0x64C*/ struct BattleFrontier frontier;
+    /*0xF2C*/ u8 itemFlags[ITEM_FLAGS_COUNT];
 }; // sizeof=0xF2C
 
 extern struct SaveBlock2 *gSaveBlock2Ptr;
@@ -827,7 +830,7 @@ struct TrainerNameRecord
     u8 trainerName[PLAYER_NAME_LENGTH + 1];
 };
 
-struct SaveTrainerHill
+struct TrainerHillSave
 {
     /*0x3D64*/ u32 timer;
     /*0x3D68*/ u32 bestTime;
@@ -839,7 +842,7 @@ struct SaveTrainerHill
     /*0x3D6E*/ u16 hasLost:1;
     /*0x3D6E*/ u16 maybeECardScanDuringChallenge:1;
     /*0x3D6E*/ u16 field_3D6E_0f:1;
-    /*0x3D6E*/ u16 tag:2;
+    /*0x3D6E*/ u16 mode:2; // HILL_MODE_*
 };
 
 struct WonderNewsMetadata
@@ -1023,7 +1026,7 @@ struct SaveBlock1
     /*0x322C*/ struct MysteryGiftSave mysteryGift;
     /*0x3???*/ u8 dexSeen[NUM_DEX_FLAG_BYTES];
     /*0x3???*/ u8 dexCaught[NUM_DEX_FLAG_BYTES];
-    /*0x3718*/ u32 trainerHillTimes[4];
+    /*0x3718*/ u32 trainerHillTimes[NUM_TRAINER_HILL_MODES];
     /*0x3728*/ struct RamScript ramScript;
     /*0x3B14*/ struct RecordMixingGift recordMixingGift;
     /*0x3B58*/ LilycoveLady lilycoveLady;
@@ -1031,7 +1034,7 @@ struct SaveBlock1
     #ifndef FREE_UNION_ROOM_CHAT
     /*0x3C88*/ u8 registeredTexts[UNION_ROOM_KB_ROW_COUNT][21]; //210 bytes
     #endif
-    /*0x3D64*/ struct SaveTrainerHill trainerHill;
+    /*0x3D64*/ struct TrainerHillSave trainerHill;
     /*0x3D70*/ struct WaldaPhrase waldaPhrase;
                u8 dexNavSearchLevels[NUM_SPECIES];
                u8 dexNavChain;
