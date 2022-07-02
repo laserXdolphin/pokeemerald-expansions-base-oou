@@ -28,11 +28,13 @@ You are currently on the master branch which should always be a working (at leas
 - [Improving the Pace of Battles - Mkol103](https://www.pokecommunity.com/showpost.php?p=10266925)
 - [Wrapping Summary Screen - Zeturic](https://www.pokecommunity.com/showpost.php?p=10060875)
 - [Move Item - Zeturic](https://www.pokecommunity.com/showpost.php?p=10120157)
-- [DPPt Bike (with L and R for Mach and Acro) - Lunos](https://www.pokecommunity.com/showpost.php?p=10161144)
+- [DPPt Bike (with L) - Lunos](https://www.pokecommunity.com/showpost.php?p=10217718)
 - [Faster Surfing - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10137446)
 - [Berry Trees No Longer Disappear - Buffel Saft](https://www.pokecommunity.com/showpost.php?p=10142996&postcount=63)
 - [Remove the need to water berries on rainy Routes - Buffel Saft](https://www.pokecommunity.com/showpost.php?p=10349397&postcount=258)
 - [Item Descriptions On First Obtain - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10126502)
+- [Custom Battle Music Via Scripting - Anon822](https://www.pokecommunity.com/showpost.php?p=10341282)
+- [Power item and Destiny Knot breeding - DarkDown](https://www.pokecommunity.com/showpost.php?p=10488226)
 
 ## Pret Tutorial Content
 
