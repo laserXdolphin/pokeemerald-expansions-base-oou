@@ -22,6 +22,7 @@ You are currently on the master branch which should always be a working (at leas
 - Set a Trainer's Pokémon's [EVs - lightbox87](https://www.pokecommunity.com/showpost.php?p=10135792), [abilities - Diego Mertens](https://www.pokecommunity.com/showpost.php?p=10127338) and nature
 - [Nature Color - DizzyEgg](https://www.pokecommunity.com/showpost.php?p=10024409)
 - [Showing IVs/EVs in Summary Screen - PokemonCrazy](https://www.pokecommunity.com/showpost.php?p=10161688) using L, R and Start
+- [Item field effect functions to increase/decrease Individual Values - Lunos](https://www.pokecommunity.com/showpost.php?p=10469674) Vitamins affect IVs
 - [Restoring the Shred Split Battle Transition - Lunos](https://www.pokecommunity.com/showpost.php?p=10449556)
 - [Poisonpoint no Overworld Poison Damage - Lunos](https://www.pokecommunity.com/showpost.php?p=10349195) 
 - "Move Pokémon" as first PSS option
