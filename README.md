@@ -28,6 +28,7 @@ You are currently on the master branch which should always be a working (at leas
 - "Move Pokémon" as first PSS option
 - [Improving the Pace of Battles - Mkol103](https://www.pokecommunity.com/showpost.php?p=10266925)
 - [Wrapping Summary Screen - Zeturic](https://www.pokecommunity.com/showpost.php?p=10060875)
+- [Pokemart Items by Badge Count - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10172995&postcount=96)
 - [Move Item - Zeturic](https://www.pokecommunity.com/showpost.php?p=10120157)
 - [DPPt Bike (with L) - Lunos](https://www.pokecommunity.com/showpost.php?p=10217718)
 - [Faster Surfing - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10137446)
