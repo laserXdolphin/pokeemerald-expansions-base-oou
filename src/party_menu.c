@@ -80,6 +80,7 @@ enum {
     MENU_ITEM,
     MENU_GIVE,
     MENU_TAKE_ITEM,
+    MENU_MOVE_ITEM,
     MENU_MAIL,
     MENU_TAKE_MAIL,
     MENU_READ,
@@ -2043,22 +2044,6 @@ static u8 CanTeachMove(struct Pokemon *mon, u16 move)
         return CAN_LEARN_MOVE;
 }
 
-<<<<<<< HEAD
-static u16 GetTutorMove(u8 tutor)
-{
-    return gTutorMoves[tutor];
-}
-
-bool8 CanLearnTutorMove(u16 species, u8 tutor)
-{
-    if (sTutorLearnsets[species] & (1 << tutor))
-        return TRUE;
-    else
-        return FALSE;
-}
-
-=======
->>>>>>> upstream/master
 static void InitPartyMenuWindows(u8 layout)
 {
     u8 i;

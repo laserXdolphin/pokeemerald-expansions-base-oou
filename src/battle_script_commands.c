@@ -4175,10 +4175,10 @@ static void Cmd_getexp(void)
                     // only give exp share bonus in later gens if the mon wasn't sent out
                 #if B_SPLIT_EXP < GEN_6
                     if (holdEffect == HOLD_EFFECT_EXP_SHARE)
-                        gBattleMoveDamage += gExpShareExpp * expMultiplier;
+                        gBattleMoveDamage += gExpShareExp * expMultiplier;
                 #else
                     if (holdEffect == HOLD_EFFECT_EXP_SHARE && gBattleMoveDamage == 0)
-                        gBattleMoveDamage += gExpShareExpp * expMultiplier;
+                        gBattleMoveDamage += gExpShareExp * expMultiplier;
                 #endif
                     if (holdEffect == HOLD_EFFECT_LUCKY_EGG)
                         gBattleMoveDamage = (gBattleMoveDamage * 150) / 100;
