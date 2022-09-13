@@ -314,8 +314,8 @@ MauvilleCity_PokemonCenter_1F_Text_TrendsStartedStory:: @ 828E9FE
 	.string "{STR_VAR_3} is setting trends for all\n"
 	.string "the Hoenn region!$"
 
-MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedTitle:: @ 828EA7D
-    .string "The Berry-Planting TRAINER$"
+MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedTitle::
+	.string "The Berry-Planting TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedAction:: @ 828EA98
 	.string "Planted Berries$"
